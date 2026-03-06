@@ -28,10 +28,20 @@
       padding: 2rem;
       border-radius: 14px;
       box-shadow: 0 12px 36px rgba(16, 24, 40, 0.08);
-      text-align: center;
+      text-align: left;
     }
-    h1 { margin: 0 0 .75rem; }
-    p { margin: 0; line-height: 1.6; }
+    h1 { margin: 0 0 .75rem; text-align: center; }
+    p { margin: 0; line-height: 1.6; text-align: center; }
+    h2 { margin: 1.5rem 0 .6rem; font-size: 1.05rem; }
+    ul { margin: 0; padding-left: 1.1rem; }
+    li { margin: .35rem 0; line-height: 1.45; }
+    code {
+      background: #eef3f8;
+      padding: .1rem .35rem;
+      border-radius: 6px;
+      font-family: Consolas, "Courier New", monospace;
+      font-size: .9em;
+    }
     .accent { color: var(--accent); font-weight: 600; }
   </style>
 </head>
@@ -39,6 +49,13 @@
   <main>
     <h1>Welcome to YoranSoft</h1>
     <p>This is the official homepage for <span class="accent">yoransoft.com</span>.</p>
+    <h2>Projects</h2>
+    <ul>
+      <li><code>yrp</code>: Internet radio player powered by libmpv.</li>
+      <li><code>yra</code>: Flutter radio app for fast station discovery and resilient playback.</li>
+      <li><code>yc</code>: Flutter tracker for currencies, commodities, and crypto.</li>
+      <li><code>yv</code>: Real-time spectrum visualizer for YRP.</li>
+    </ul>
   </main>
 </body>
 </html>
